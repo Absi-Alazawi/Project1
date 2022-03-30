@@ -1,9 +1,25 @@
 #main{
     margin: auto;
-    width: 1200px;
+    
 }
 
 
 .header{
     text-align: center;
+}
+.cards{
+border: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+overflow:hidden;
+margin: auto;
+width: 800px;
+}
+.card.img{
+    width: 200px;
+    border: 10px;
+    
+
+
 }
